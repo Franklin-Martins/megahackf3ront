@@ -81,24 +81,25 @@ header {
     padding-bottom:14px;
     border-bottom:2px solid var(--primary-color);
 }
-.button {
+.menu .button {
     width:215px;
     height:40px;
     display:flex;
     align-items:center;
     justify-content:center;
     margin-left:26px;
+    margin-top:0px;
     border-radius:6px;
     background-color:var(--primary-color);
 }
-.button:hover {
+.menu .button:hover {
     background-color:#29CA77;
 }
-.button a {
+.menu .button a {
     margin:0;
     color:#FFF;
 }
-.button a:hover {
+.menu .button a:hover {
     border:0;
     padding:0;
 }
@@ -161,11 +162,273 @@ header {
     position:fixed;
     animation:mouse 1.2s infinite;
 }
-.mouse img:hover {
-    cursor:pointer;
-}
 @keyframes mouse {
     0%{transform:translateY(0px)}
     50%{transform:translateY(10px)}
     100%{transform:translateY(0px)}
+}
+/*============================================================ BROTO ============================================================*/
+main {
+    height:768px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.tag {
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:5px;
+}
+.broto-thumbnail,
+.broto-content {
+    display:flex;
+    justify-content:center;
+}
+.broto-content h2 {
+    margin-top:26px;
+    max-width:507px;
+}
+.broto-content p {
+    margin-top:14px;
+    max-width:592px;
+}
+.button {
+    cursor:pointer;
+    width:293px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:26px;
+    border-radius:6px;
+    background-color:var(--primary-color);
+}
+.button:hover {
+    background-color:#29CA77;
+}
+.button a {
+    margin:0;
+    color:#FFF;
+}
+.button a:hover {
+    border:0;
+    padding:0;
+}
+/*============================================================ PROMOTION ============================================================*/
+#promotion {
+    height:620px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#F1F1F1;
+}
+#promotion .container {
+    align-items:center;
+}
+.promotion-headline {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.promotion-cards {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:100px;
+}
+.promotion-cards--card {
+    width:274px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    margin-left:94px;
+    margin-right:94px;
+}
+.promotion-cards--card h2 {
+    max-width:274px;
+    color:var(--text-color);
+}
+.promotion-cards--card--thumbnail {
+    width:120px;
+    height:120px;
+    margin-bottom:14px;
+    border-radius:70px;
+    box-shadow:-10px 10px 30px #c4c4c459;
+}
+.promotion-cards--card:first-child {
+    margin-top:56px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.promotion-cards--card:last-child {
+    margin-top:56px;
+    margin-left:0px;
+    margin-right:0px;
+}
+/*============================================================ PREPARE ============================================================*/
+#prepare {
+    height:768px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:-10px 10px 30px #c4c4c459;
+}
+.prepare-thumbnail {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.prepare-content {
+    display:flex;
+    justify-content:center;
+}
+.prepare-content h2 {
+    margin-top:26px;
+    max-width:427px;
+}
+.prepare-content strong {
+    font-size:28px;
+    margin-right:5px;
+}
+.prepare-content p {
+    display:flex;
+    align-items:center;
+    margin-top:14px;
+}
+/*============================================================ CONTACT ============================================================*/
+#contact {
+    height:760px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#F1F1F1;
+}
+#contact .container {
+    align-items:center;
+}
+.contact-headline {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.contact-content {
+    display:flex;
+    margin-top:26px;
+}
+.contact-content--info {
+    text-align:center;
+    font-size:18px;
+}
+.contact-content--form {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:26px;
+}
+.contact-content-form--item {
+    display:flex;
+}
+.contact-content-form--item:first-child {
+    margin-right:26px;
+}
+.contact-content--form--item-headline {
+    display:flex;
+    margin-bottom:26px;
+}
+.contact-content-form--item label {
+    font-size:18px;
+    margin-bottom:5px;
+}
+.contact-content-form--item input[type=text],
+.contact-content-form--item select {
+    width:300px;
+    height:40px;
+    font-size:16px;
+    padding-left:10px;
+    border-radius:6px;
+    border:1px solid var(--secondary-color);
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+.contact-content-form--item textarea {
+    width:100%;
+    max-width:626px;
+    height:150px;
+    font-size:16px;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid var(--secondary-color);
+}
+/*============================================================ FOOTER ============================================================*/
+footer {
+    height:236px;
+    display:flex;
+    justify-content:center;
+    background-color:var(--secondary-color);
+}
+.footer-main {
+    display:flex;
+    justify-content:space-between;
+}
+.footer-main--logomarca {
+    margin-top:26px;
+    width:269px;
+    text-align:center;
+}
+.footer-main--logomarca p{
+    color:#FFF;
+    font-size:16px;
+    margin-top:14px;
+}
+.footer-main--menu {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer-main--menu nav ul {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer-main--menu a {
+    color:#FFF;
+    font-size:16px;
+    font-weight:400;
+    margin-left:26px;
+}
+.footer-main--menu a:hover {
+    padding-bottom:14px;
+    border-bottom:2px solid var(--primary-color);
+}
+.footer-main--menu .button {
+    width:215px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:26px;
+    margin-top:0px;
+    border-radius:6px;
+    background-color:var(--primary-color);
+}
+.footer-main--menu .button:hover {
+    background-color:#29CA77;
+}
+.footer-main--menu .button a {
+    margin:0;
+    color:#FFF;
+}
+.footer-main--menu .button a:hover {
+    border:0;
+    padding:0;
+}
+.footer-copy {
+    display:flex;
+    color:#EEE;
+    font-size:16px;
+    border-radius:2px;
+    justify-content:center;
+    border-top:2px solid #EEE;
 }
