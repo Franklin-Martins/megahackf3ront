@@ -7,7 +7,7 @@ export default function Initial(){
 {/*============================================================ HEADER ============================================================*/}
             <header>
                 <div class="container">
-                    <div class="logo"><img src="/assets/logomarca.svg" alt="Logomarca"/></div>
+                    <div class="logo"><a href="/"><img src="/assets/logomarca.svg" alt="Logomarca"/></a></div>
                 </div>
             </header>
 {/*============================================================ BANNER ============================================================*/}
@@ -47,8 +47,8 @@ export default function Initial(){
             <section id="start">
                 <div class="container">
                     <div class="start-area column">
-                        <div class="start-area--register"><a href="#">Inscrever-se</a></div>
-                        <div class="start-area--login"><a href="#">Entrar</a></div>
+                        <a href="#"><div class="start-area--register">Inscrever-se</div></a>
+                        <a href="/login"><div class="start-area--login">Entrar</div></a>
                     </div>
                 </div>
             </section>

@@ -158,8 +158,6 @@ body {
 #initial .start-area--login {
     margin-top:20px;
     background-color:#FFF;
-    border:1px solid var(--primary-color);
-}
-#initial .start-area--login a {
     color:var(--primary-color);
+    border:1px solid var(--primary-color);
 }
