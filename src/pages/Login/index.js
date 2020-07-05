@@ -14,7 +14,7 @@ export default function Login(){
             <main>
                 <div class="container column">
                     <h1>Entrar</h1>
-                    <form method="POST" action="" class="column">
+                    <form class="column">
                         <div class="form-item column">
                             <label>E-mail</label>
                             <input type="email" placeholder="Digite seu email..."></input>
@@ -23,7 +23,7 @@ export default function Login(){
                             <label>Senha</label>
                             <input type="password" placeholder="Digite sua senha..."></input>
                         </div>
-                        <button>Entrar</button>
+                        <a href="/screening"><button>Entrar</button></a>
                     </form>
                     <div class="form-item--options">
                         <div class="form-item--option"><a href="#"><img src="/assets/button-facebook.svg" alt="Entrar com o Facebook"/></a></div>
