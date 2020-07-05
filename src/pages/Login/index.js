@@ -10,7 +10,7 @@ export default function Login(){
                     <div class="voltar"><a href="/"><img src="/assets/back.svg" alt="Voltar para a página inicial"/></a></div>
                 </div>
             </header>
-{/*============================================================ BANNER ============================================================*/}
+{/*============================================================ MAIN ============================================================*/}
             <main>
                 <div class="container column">
                     <h1>Entrar</h1>
@@ -23,7 +23,7 @@ export default function Login(){
                             <label>Senha</label>
                             <input type="password" placeholder="Digite sua senha..."></input>
                         </div>
-                        <a href="/screening"><button>Entrar</button></a>
+                        <a href="/screening">Entrar</a>
                     </form>
                     <div class="form-item--options">
                         <div class="form-item--option"><a href="#"><img src="/assets/button-facebook.svg" alt="Entrar com o Facebook"/></a></div>

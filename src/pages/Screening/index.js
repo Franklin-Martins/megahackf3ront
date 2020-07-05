@@ -13,7 +13,7 @@ export default function Screening(){
                     <div class="broto"><img src="assets/welcome-broto.svg" alt="Broto: Quero te conhecer para te ajudar a escolher um ótimo livro." /></div>
                     <h3>Responda umas perguntas e conheça novos mundos!</h3>
                     <p>Leva 2 minutos e no final te recomendaremos um livro que é a sua cara!</p>
-                    <a href="/question1">Começar</a>
+                    <a href="/questionname">Começar</a>
                 </div>
             </main>
         </div>

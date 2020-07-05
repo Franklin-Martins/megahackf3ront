@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Initial from './pages/Inicio'
 import Login from './pages/Login'
 import Screening from './pages/Screening'
+import QuestionName from './pages/QuestionName'
 
 function routes() {
     return (
@@ -13,6 +14,7 @@ function routes() {
         <Route component={Initial} path="/initial" />
         <Route component={Login} path="/login" />
         <Route component={Screening} path="/screening" />
+        <Route component={QuestionName} path="/questionname" />
       </BrowserRouter>
     );
   }
